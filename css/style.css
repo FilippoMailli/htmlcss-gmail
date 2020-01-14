@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/wood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.Intestazione {
+    margin: 10px 10px;
+    border-bottom: 3px solid grey;
+    text-align:left;
+    padding-bottom: 10px
+}
+
+img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Gelasio';
+    color: white;
+}
+
+button {
+    width: 50px;
+    border-radius: 4px;
+}
+
+.cerchiato {
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    border: 10px solid orange;
+}
+
+#distanzia div {
+    margin-top:  10px;
+}
+
+p {
+    background-color: #e0e0e0;
+    color: grey;
+    padding: 4px ;
+    border: 1px solid black;
+}
+
+.oggetto {
+    font-weight: bold;
+    color: black;
+}
+
+#bianco p{
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+.rimpicciolisci {
+    font-size: 14px;
+    font-style: italic;
+}
